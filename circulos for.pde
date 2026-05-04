@@ -12,7 +12,7 @@ void draw() {
     diametro+= w/18;
     println(x, " ");
     stroke(#0D0C64);
-    fill(#FFF398);
+    fill(#FFC0CB);
     circle(diametro/2+x, h/2, diametro);
   }
 
