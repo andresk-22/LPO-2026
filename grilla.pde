@@ -6,7 +6,7 @@ void draw(){
   int n=5, w=width, h=height, x1=0, x2=0;
   
   if(mousePressed){background(#FFF398);   stroke(#0D0C64);}
-  else{background(#0D0C64); stroke(#FFF398);}
+  else{background(#FFFFFF); stroke(#000080);}
   for(int i=0; i<n+1; i++)
   {
     
