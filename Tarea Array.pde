@@ -37,9 +37,6 @@ void draw() {
 int filas = 20;
 int columnas = 20;
 int medida = 60;
-
-// Usamos dos matrices para no complicarnos con 3D
-// Guardan 0 si no hay nada, 1 si hay pared, 2 si hay diagonal, etc.
 int[][] paredes = new int[filas][columnas];
 int[][] diagonales = new int[filas][columnas];
 
